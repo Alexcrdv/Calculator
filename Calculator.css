@@ -18,11 +18,19 @@
 .display {
     color: rgb(66, 66, 66);
     background-color: rgb(182, 182, 182);
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
     width: 100%;
     text-align: right;
     font-size: 70px;
+}
+
+.small-display {
+    color: rgb(141, 141, 141);
+    background-color: rgb(182, 182, 182);
+    height: 30px;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
 }
 
 button {
