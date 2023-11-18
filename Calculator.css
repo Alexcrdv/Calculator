@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(32, 32, 34);
+}
+
 .container {
     background-color: rgb(32, 32, 34);
     min-height: 100vh;
