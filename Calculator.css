@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 34);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -10,14 +10,15 @@
 .calculator {
     width: 90%;
     max-width: 400px;
-    background-color: rgb(122, 122, 122);
-    border-radius: 20px;
+    background-color: rgb(63, 77, 99);
+    border: 5px solid rgb(63, 77, 99);
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .display {
-    color: rgb(66, 66, 66);
-    background-color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
+    background-color: rgba(32, 32, 34, 0.795);
     height: 80px;
     width: 100%;
     text-align: right;
@@ -25,26 +26,30 @@
 }
 
 .small-display {
-    color: rgb(141, 141, 141);
-    background-color: rgb(182, 182, 182);
+    color: rgb(117, 119, 126);
+    background-color: rgba(32, 32, 34, 0.795);
     height: 30px;
     width: 100%;
     text-align: right;
     font-size: 30px;
 }
 
+.buttons {
+    padding-top: 5px;
+}
+
 button {
-    color:white;
-    background-color: rgb(75, 75, 75);
+    color:rgb(255, 255, 255);
+    background-color: rgb(90, 113, 139);
     height: 100px;
     width: 100%;
-    border: 2px solid rgb(122, 122, 122);
+    border: 5px solid rgb(63, 77, 99);
     cursor: pointer;
     font-size: 30px;
 }
 
 button:hover{
-    background-color: rgb(59, 59, 59);
+    background-color: rgba(32, 32, 34, 0.795);
 }
 
 .first-row {
