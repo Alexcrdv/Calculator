@@ -10,12 +10,16 @@ let firstNum = "";
 let operator = "";
 let secondNum = "";
 let needsClear = false;
+let audio = new Audio("calculator-button.wav");
+audio.src = "calculator-button.wav";
 
 buttons.forEach((button) => {
     button.addEventListener("click", (e) => calculation(e.target.dataset.value))
 })
 
 const calculation = (btnValue) => {
+    audio.play();
+    
     if (numbers.includes(btnValue)) {
         if (needsClear && input !== "") {
             input = "";
